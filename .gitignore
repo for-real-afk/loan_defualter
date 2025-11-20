@@ -1,0 +1,57 @@
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+*.log
+
+# === Virtual Environment ===
+env/
+venv/
+.venv/
+
+# === IDE / Editors ===
+.vscode/
+.idea/
+*.swp
+
+# === Streamlit cache ===
+.streamlit/
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === ML / Data ===
+data/raw/*
+data/processed/*
+!data/processed/.gitkeep
+!data/raw/.gitkeep
+
+models/*.joblib
+models/preprocessors/*.joblib
+models/feature_metadata.json
+
+# === Notebooks ===
+*.ipynb_checkpoints
+
+# === Logs & artifacts ===
+logs/
+mlruns/          # MLflow runs
+artifacts/
+
+# === Build / Dist ===
+build/
+dist/
+
+# === Environment ===
+.env
+*.env
+
+# === Sensitive ===
+*.key
+*.pem
